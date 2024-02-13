@@ -7,7 +7,7 @@ import Button from './Button'
 const Portfolio = () => {
 
   return (
-    <section className='max-container px-6 lg:px-20 3xl:px-0 gap-20 py-10 pb-32 md:gap-28 lg:py-20' id='portfolio'>
+    <section className='mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 gap-20 py-10 pb-32 md:gap-28 lg:py-20' id='portfolio'>
       <div className='text-center text-[18px] font-[700] uppercase tracking-[1rem] text-blue-500 pb-20'>
         Portafolio
       </div>

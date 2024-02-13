@@ -11,7 +11,7 @@ const Navbar = () => {
 
     <nav className='px-6 lg:px-20 3xl:px-0 relative z-30 rounded-lg bg-white shadow-xl ring-1 ring-slate-100
     py-4 lg:py-0'>
-      <div className='flex items-center justify-between max-container'>
+      <div className='flex items-center justify-between mx-auto max-w-[1440px]'>
         <div  className='text-[28px] font-[700] leading-[120%] capitalize relative' >
           Mi<span className='text-blue-700'>nt</span><span className='absolute top-[-0.3rem] right-[-1rem] h-5 w-5
           linearGradient rounded-full -z-10'></span>

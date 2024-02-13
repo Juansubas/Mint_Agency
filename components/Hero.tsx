@@ -6,9 +6,9 @@ import Button from './Button'
 
 const Hero = () => {
   return (
-    <section className='max-container px-6 lg:px-20 3xl:px-0 flex flex-col items-center justify-center gap-20 py-10 pb-32
+    <section className='mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 flex flex-col items-center justify-center gap-20 py-10 pb-32
     md:gap-28 lg:py-20 lg:flex-row' id='home'>
-      <span className='max-container absolute top-64 left-44 h-[144px] w-[777px] bg-blue-400
+      <span className='mx-auto max-w-[1440px] absolute top-64 left-44 h-[144px] w-[777px] bg-blue-400
       rounded-full shadow-lg blur-[7rem] -z-10'></span>
       {/*left */}
       <article className='relative z-20 flex flex-1 flex-col pt-16 pb-0'>
