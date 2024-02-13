@@ -6,8 +6,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='max-container padding-container bg-green-90 bg-pattern bg-cover bg-center
-    bg-no-repeat px-6 pt-24 pb-8 text-white'>
+    <footer className='max-container px-6 lg:px-20 3xl:px-0 bg-green-90 bg-pattern bg-cover bg-center
+    bg-no-repeat pt-24 pb-8 text-white'>
       <div className='flex flexBetweeen flex-col gap-14 md:flex-row items-center pb-16'>
         <ul>
         {
@@ -26,7 +26,7 @@ const Footer = () => {
             ))
           }  
         </ul>
-        <ul className='regular-14 flex gap-4 text-gray-30'>
+        <ul className='text-[14px] font-[400] flex gap-4 text-gray-30'>
             {
               SOCIALS.map((social)=>(
                 <Link 
@@ -37,7 +37,7 @@ const Footer = () => {
                   offset={-80} 
                   duration={500} 
                   key={social.key} className='h-10 w-10 border-[0.01rem]
-                  border-gray-20 flexCenter rounded-full hover:bg-blue-500 hover:border-blue-500
+                  border-gray-20 flex items-center justify-center rounded-full hover:bg-blue-500 hover:border-blue-500
                   transition-all'
                 >
                   <Image src={social.imgURL} alt={social.key} width={20} height={20} className='invert-[100]'/>

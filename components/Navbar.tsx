@@ -9,10 +9,10 @@ const Navbar = () => {
   return (
     
 
-    <nav className='padding-container relative z-30 rounded-lg bg-white shadow-xl ring-1 ring-slate-100
+    <nav className='px-6 lg:px-20 3xl:px-0 relative z-30 rounded-lg bg-white shadow-xl ring-1 ring-slate-100
     py-4 lg:py-0'>
-      <div className='flexBetween max-container'>
-        <div  className='bold-28 capitalize relative' >
+      <div className='flex items-center justify-between max-container'>
+        <div  className='text-[28px] font-[700] leading-[120%] capitalize relative' >
           Mi<span className='text-blue-700'>nt</span><span className='absolute top-[-0.3rem] right-[-1rem] h-5 w-5
           linearGradient rounded-full -z-10'></span>
         </div>
@@ -26,7 +26,7 @@ const Navbar = () => {
                   smooth={true} 
                   offset={-80} 
                   duration={500} 
-                  key={link.key} className='flexCenter text-[-15px] font-[500] text-black hover:bg-blue-500
+                  key={link.key} className='flex items-center justify-center text-[-15px] font-[500] text-black hover:bg-blue-500
                 hover:text-white px-4 py-1 rounded-full cursor-pointer transition-all duration-300'
                 >
                   {link.label}

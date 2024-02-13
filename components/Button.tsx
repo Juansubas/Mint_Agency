@@ -28,7 +28,7 @@ const Button = ({ type, title, icon, variant, sectionId, onButtonClick }: Button
 
   return (
     <button
-      className={`flexCenter gap-2 rounded-full border ${variant}`}
+      className={`flex items-center justify-center gap-2 rounded-full border ${variant}`}
       type={type}
       onClick={handleClick}
     >

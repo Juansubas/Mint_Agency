@@ -69,15 +69,15 @@ export const Contact = () => {
   };
 
   return (
-    <section className='max-container padding-container gap-20 py-10 pb-22 md:gap-28 lg:py-10 bg-[#f7f7f7]' id='contact'>
-      <div className='text-center bold-18 uppercase tracking-[1rem] text-blue-500 pb-10'>
+    <section className='max-container px-6 lg:px-20 3xl:px-0 gap-20 py-10 pb-22 md:gap-28 lg:py-10 bg-[#f7f7f7]' id='contact'>
+      <div className='text-center text-[18px] font-[700] uppercase tracking-[1rem] text-blue-500 pb-10'>
         Contacto
       </div>
       <div className='flex flex-col gap-10 md:gap-18 xl:flex-row'>
-        <div className='flex-1 flexCenter flex-col m-auto pl-5'>
+        <div className='flex-1 flex items-center justify-center flex-col m-auto pl-5'>
           <form className='bg-white px-8 pt-6 pb-8 mb-4' onSubmit={handleSubmit}>
-          <h3 className='bold-18 lg:bold-20 my-4 capitalize flexCenter'>Formulario de Contacto</h3>
-          <p className='regular-16 text-gray-30 mb-4'>Si estás listo para llevar tu negocio al siguiente nivel, completa el formulario a continuación. Nos emociona la oportunidad de colaborar contigo y explorar cómo nuestros servicios integrales de marketing y desarrollo de software pueden impulsar tu éxito.</p>
+          <h3 className='text-[18px] lg:text-[20px] font-[600] my-4 capitalize flex items-center justify-center'>Formulario de Contacto</h3>
+          <p className='text-[16px] font-[400] text-gray-30 mb-4'>Si estás listo para llevar tu negocio al siguiente nivel, completa el formulario a continuación. Nos emociona la oportunidad de colaborar contigo y explorar cómo nuestros servicios integrales de marketing y desarrollo de software pueden impulsar tu éxito.</p>
           <div className='mb-4'>
             <div className='grid grid-flow-row sm:grid-flow-col gap-3'>
               <div className='sm:col-span-4 justify-center'>
@@ -156,7 +156,7 @@ export const Contact = () => {
         </form>
         {true && <SimpleSnackbar content={snackContent} bool={snackIsOpen} />}
         </div>
-        <div className='flex-1 flexCenter'>
+        <div className='flex-1 flex items-center justify-center'>
           <Image src="/contact.jpg" alt="about" height={400} width={400} className="w-auto rounded-lg shadow-sm"/>
         </div>
       </div>

@@ -4,10 +4,10 @@ import Image from 'next/image'
 
 const Services = () => {
   return (
-    <section className='max-container padding-container gap-20 py-10 pb-32 md:gap-28
+    <section className='max-container px-6 lg:px-20 3xl:px-0 gap-20 py-10 pb-32 md:gap-28
     lg:py-20 xl:flex-row' id='servicios'>
       {/* title */}
-      <div className='text-center bold-18 uppercase tracking-[1rem] text-blue-500 pb-20'>
+      <div className='text-center text-[18px] font-[700] uppercase tracking-[1rem] text-blue-500 pb-20'>
         Services
       </div>
       <ul className='mt=10 grid gap-20 md:grid-cols-2 lg:grid-cols-3 md:gap-12'>
@@ -46,8 +46,8 @@ const ServiceItem = ( { title, icon, description} : ServiceItem) => {
           height={28}
         />
       </div>
-      <h3 className='bold-20 lg:bold-22 mt-6 capitalize group-hover:text-white'>{title}</h3>
-      <p className='regular-16 text-gray-30 mt-4 group-hover:text-white '>{description}</p>
+      <h3 className='text-[20px] font-[600] lg:text-[22px] font-[600]; mt-6 capitalize group-hover:text-white'>{title}</h3>
+      <p className='text-[16px] font-[400] text-gray-30 mt-4 group-hover:text-white '>{description}</p>
     </li>
   )
 }
