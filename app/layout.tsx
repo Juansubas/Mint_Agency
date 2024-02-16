@@ -22,6 +22,13 @@ export default function RootLayout({
         </main>
         <Footer />
       </body>
+      <script
+        type="text/javascript"
+        id="hs-script-loader"
+        async
+        defer
+        src={`//js-na1.hs-scripts.com/${45257961}${123456 ? `?portalId=${123456}` : ''}`}
+      />
     </html>
   );
 }
