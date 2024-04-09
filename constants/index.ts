@@ -76,6 +76,13 @@ export const PORTFOLIO = [
     URL: 'https://www.elektro.com.co/',
     description: 'Fitness y salud con entrenamiento de electroestimulación.',
     additionalInfo: 'Experimenta con Elektro, el programa de entrenamiento personalizado con electroestimulación. Rápidos resultados y satisfacción garantizada en solo 8 sesiones. Alcanza tus metas y mejora tu salud de manera eficiente con Elektro.'
+  },
+  {
+    title: 'CONTADORA CAR RENTAL',
+    ImgURL: '/project4.png',
+    URL: 'https://www.contadoracarrental.com/',
+    description: '¡Explora, disfruta y vive la isla a tu ritmo!',
+    additionalInfo: ' Nuestros vehículos te ofrecen la libertad de explorar cada rincón de este paraíso panameño con comodidad y estilo.'
   }
 ];
 

@@ -55,7 +55,7 @@ const Hero = () => {
               variant="border-green-90 bg-green-90 px-6 py-3 text-white transition-all hover:bg-black"
               sectionId="contact"
             />
-            <a href="https://www.un.org/waterforlifedecade/pdf/waterforlifebklt-s.pdf" target='_blanket'>
+            <a href="files/BROCHURE_MINT.pdf" target='_blank' rel="noopener noreferrer">
               <Button
                 type="button"
                 title="Descargar Brochure"
